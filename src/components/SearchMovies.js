@@ -7,7 +7,7 @@ function SearchMovies(){
     const [keyword, setKeyword] = useState('');
     const [apiKey, setApiKey] = useState('4dbf870a');
     const searchInputRef = useRef(null); // Referencia al campo de búsqueda
-    const defaultMessage = 'INGRESA TU PELI ...';
+    const defaultMessage = '';
 
     useEffect(() => {
         // Lógica para realizar la llamada a la API cuando el keyword cambie
